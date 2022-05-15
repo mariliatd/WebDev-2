@@ -1,0 +1,76 @@
+
+----------AULA 1----------
+
+<!doctype html> - assinatura
+
+<html> //inicio do html
+    <head> //metadados: titulos, estilo
+        <><><><>
+    </head>
+
+    <body> //aquilo que é exibido
+        <><><><>
+    </body>
+</html>
+
+
+//TAGS
+<h1>titulo</h1> //titulo tamanho [1,6]
+<p>texto</p> //paragrafo
+<b>texto</b> //negrito
+</br> //pula linha
+<img src="link/nome" /> //coloca uma imagem
+<ul> li </ul> //lista nao ordenada - • • •
+<ol> li </ol> //lista ordenada - 1. 2.
+<li> abc </li> //elemento da lista
+<a target="_blank" href="link.com" ou #nome_do_id>clique aki</a> //hiperlink
+id= --- //atributo que nomeia a tag
+<button>texto</button> //cria um botao
+<input> //botao com input
+<div></div>
+
+
+
+----------AULA 2----------
+--> Seletores:
+class: .conjunto
+id: #unico
+pseudoseletor
+    :hover - mouse em cima
+    :active - click
+    :visites - ja clicado
+
+
+--> Interno
+<html>
+    <head>
+        <style>
+--> Externo
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+
+
+--> Especificidade
+id > class > tag
+
+
+
+--> Box model
+box {
+    color: #212121;
+    background-color: black;
+    border: 1px solid black;
+    padding: 0.75em //distancia conteudo/borda
+    margin: 2em   //distancia entre elementos
+}
+
+
+--> Unidades de medidas
+px: pixel, unidade absoluta
+em: largura da letra 'm' na fonte atual
+rem: largura da letra 'm' na fonte original
+vh: 1/100 da altura do viewport
+vw: 1/100 da largura do viewport
+%: medida relativa
